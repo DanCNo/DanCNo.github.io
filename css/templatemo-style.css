@@ -467,6 +467,18 @@ h3.profile-title {
   display: block;
 }
 
+.resume-button{
+    margin-top: 5px;
+    min-width: 80px;
+    min-height: 30px;
+    background-color:#495461;
+    color: white;
+    font-size: 16px;
+    border-radius: 2px;
+    font-weight: bold;
+    border: #282e35;
+}
+
 /*------ projects ------ */
 .projects-holder {
   margin-right: 0;
@@ -482,8 +494,9 @@ h3.profile-title {
 
 .project-item {
   width: 100%;
+  max-width: 600px;
   margin-bottom: 2px;
-  border: 1px solid #aaaaaa
+  border: 1px solid #aaaaaa;
   overflow: hidden;
   position: relative;
 }
