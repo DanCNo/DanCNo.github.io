@@ -456,6 +456,10 @@ h3.profile-title {
   color: white;
 }
 
+.resume-link {
+  font-size: 30px;
+}
+
 /*------ about us ------ */
 .about-image {
   overflow: hidden;
@@ -529,7 +533,7 @@ h3.profile-title {
   position: absolute;
   width: 100%;
   left: 0;
-  bottom: 0;
+  top: 0;
   padding: 30px;
 }
 .project-hover h5 {
@@ -593,6 +597,10 @@ h3.profile-title {
 .skills-img {
   width: 60px;
   height: 60px;
+}
+
+.email-link {
+  font-size: 20px;
 }
 
 /*---------------------------------------------------------
