@@ -471,17 +471,19 @@ h3.profile-title {
 .projects-holder {
   margin-right: 0;
   margin-left: 0;
-  margin-top: 40px;
+  margin-top: 20px;
 }
-.projects-holder .col-md-4,
-.projects-holder .col-md-4 {
+.projects-holder .col,
+.projects-holder .col {
   padding-right: 1px;
   padding-left: 1px;
+  margin-right: 5px;
 }
 
 .project-item {
   width: 100%;
   margin-bottom: 2px;
+  border: 1px solid #aaaaaa
   overflow: hidden;
   position: relative;
 }
@@ -555,7 +557,7 @@ h3.profile-title {
 
 .skills-logo-container {
   display: flex;
-  justify-content: space-around;
+  justify-content: flex-start;
   flex-wrap: wrap;
   width: 60vw;
 }
@@ -565,10 +567,11 @@ h3.profile-title {
   flex-direction: column;
   flex-wrap: wrap;
   align-items: center;
+  margin-bottom: 20px;
 }
 
 .img-container {
-  margin: 0 3vw 1vw 3vw;
+  margin: 0 3vw 5px 3vw;
   position: relative;
   width: 60px;
   height: 60px;
