@@ -553,6 +553,32 @@ h3.profile-title {
   border: 0;
 }
 
+.skills-logo-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  width: 60vw;
+}
+
+.skill-container{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.img-container {
+  margin: 0 3vw 1vw 3vw;
+  position: relative;
+  width: 60px;
+  height: 60px;
+}
+
+.skills-img {
+  width: 60px;
+  height: 60px;
+}
+
 /*---------------------------------------------------------
  5. Footer
 -------------------------------------------------------- */
